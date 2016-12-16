@@ -9,8 +9,6 @@ and an intialization vector.
 A simple example of the functionality this library provides.
 
 ```
-import "git.soma.salesforce.com/skendall/crypt"
-
 iv, err := GenerateCommonIV(1)
 encrypted, err := Encrypt("mykey", iv, []byte("Secret stuff"))
 decrypted, err := Decrypt("mykey", iv, encrypted)
