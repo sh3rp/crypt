@@ -1,4 +1,4 @@
-package crip
+package crypt
 
 import (
 	"testing"
